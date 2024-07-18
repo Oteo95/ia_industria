@@ -4,8 +4,6 @@ from typing import List
 from pydantic import BaseModel
 
 from fastapi.middleware.cors import CORSMiddleware
-import requests
-import json
 
 from pathlib import Path
 from typing import Union
@@ -14,8 +12,6 @@ from fastapi.responses import FileResponse
 from starlette.requests import Request
 from starlette.staticfiles import StaticFiles
 from starlette.templating import Jinja2Templates
-
-import datetime
 
 
 def generate_response(system_prompt: str, prompt: str):

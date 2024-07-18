@@ -4,3 +4,4 @@ black
 starlette
 pydantic
 uvicorn
+requests
